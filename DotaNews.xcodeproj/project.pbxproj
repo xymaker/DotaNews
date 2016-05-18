@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C44CE0D01CEC098F00AE5456 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C44CE0CF1CEC098F00AE5456 /* main.m */; };
+		C44CE0D31CEC098F00AE5456 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C44CE0D21CEC098F00AE5456 /* AppDelegate.m */; };
+		C44CE0D61CEC098F00AE5456 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C44CE0D51CEC098F00AE5456 /* ViewController.m */; };
+		C44CE0D91CEC098F00AE5456 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C44CE0D71CEC098F00AE5456 /* Main.storyboard */; };
+		C44CE0DB1CEC098F00AE5456 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C44CE0DA1CEC098F00AE5456 /* Assets.xcassets */; };
+		C44CE0DE1CEC098F00AE5456 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C44CE0DC1CEC098F00AE5456 /* LaunchScreen.storyboard */; };
+		C44CE0E91CEC098F00AE5456 /* DotaNewsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C44CE0E81CEC098F00AE5456 /* DotaNewsTests.m */; };
+		C44CE0F41CEC098F00AE5456 /* DotaNewsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C44CE0F31CEC098F00AE5456 /* DotaNewsUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C44CE0E51CEC098F00AE5456 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C44CE0C31CEC098F00AE5456 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C44CE0CA1CEC098F00AE5456;
+			remoteInfo = DotaNews;
+		};
+		C44CE0F01CEC098F00AE5456 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C44CE0C31CEC098F00AE5456 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C44CE0CA1CEC098F00AE5456;
+			remoteInfo = DotaNews;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C44CE0CB1CEC098F00AE5456 /* DotaNews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DotaNews.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C44CE0CF1CEC098F00AE5456 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C44CE0D11CEC098F00AE5456 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C44CE0D21CEC098F00AE5456 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C44CE0D41CEC098F00AE5456 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C44CE0D51CEC098F00AE5456 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C44CE0D81CEC098F00AE5456 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C44CE0DA1CEC098F00AE5456 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C44CE0DD1CEC098F00AE5456 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C44CE0DF1CEC098F00AE5456 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C44CE0E41CEC098F00AE5456 /* DotaNewsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DotaNewsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C44CE0E81CEC098F00AE5456 /* DotaNewsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DotaNewsTests.m; sourceTree = "<group>"; };
+		C44CE0EA1CEC098F00AE5456 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C44CE0EF1CEC098F00AE5456 /* DotaNewsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DotaNewsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C44CE0F31CEC098F00AE5456 /* DotaNewsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DotaNewsUITests.m; sourceTree = "<group>"; };
+		C44CE0F51CEC098F00AE5456 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C44CE0C81CEC098F00AE5456 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C44CE0E11CEC098F00AE5456 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C44CE0EC1CEC098F00AE5456 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C44CE0C21CEC098F00AE5456 = {
+			isa = PBXGroup;
+			children = (
+				C44CE0CD1CEC098F00AE5456 /* DotaNews */,
+				C44CE0E71CEC098F00AE5456 /* DotaNewsTests */,
+				C44CE0F21CEC098F00AE5456 /* DotaNewsUITests */,
+				C44CE0CC1CEC098F00AE5456 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C44CE0CC1CEC098F00AE5456 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C44CE0CB1CEC098F00AE5456 /* DotaNews.app */,
+				C44CE0E41CEC098F00AE5456 /* DotaNewsTests.xctest */,
+				C44CE0EF1CEC098F00AE5456 /* DotaNewsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C44CE0CD1CEC098F00AE5456 /* DotaNews */ = {
+			isa = PBXGroup;
+			children = (
+				C44CE0D11CEC098F00AE5456 /* AppDelegate.h */,
+				C44CE0D21CEC098F00AE5456 /* AppDelegate.m */,
+				C44CE0D41CEC098F00AE5456 /* ViewController.h */,
+				C44CE0D51CEC098F00AE5456 /* ViewController.m */,
+				C44CE0D71CEC098F00AE5456 /* Main.storyboard */,
+				C44CE0DA1CEC098F00AE5456 /* Assets.xcassets */,
+				C44CE0DC1CEC098F00AE5456 /* LaunchScreen.storyboard */,
+				C44CE0DF1CEC098F00AE5456 /* Info.plist */,
+				C44CE0CE1CEC098F00AE5456 /* Supporting Files */,
+			);
+			path = DotaNews;
+			sourceTree = "<group>";
+		};
+		C44CE0CE1CEC098F00AE5456 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C44CE0CF1CEC098F00AE5456 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C44CE0E71CEC098F00AE5456 /* DotaNewsTests */ = {
+			isa = PBXGroup;
+			children = (
+				C44CE0E81CEC098F00AE5456 /* DotaNewsTests.m */,
+				C44CE0EA1CEC098F00AE5456 /* Info.plist */,
+			);
+			path = DotaNewsTests;
+			sourceTree = "<group>";
+		};
+		C44CE0F21CEC098F00AE5456 /* DotaNewsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C44CE0F31CEC098F00AE5456 /* DotaNewsUITests.m */,
+				C44CE0F51CEC098F00AE5456 /* Info.plist */,
+			);
+			path = DotaNewsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C44CE0CA1CEC098F00AE5456 /* DotaNews */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C44CE0F81CEC098F00AE5456 /* Build configuration list for PBXNativeTarget "DotaNews" */;
+			buildPhases = (
+				C44CE0C71CEC098F00AE5456 /* Sources */,
+				C44CE0C81CEC098F00AE5456 /* Frameworks */,
+				C44CE0C91CEC098F00AE5456 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DotaNews;
+			productName = DotaNews;
+			productReference = C44CE0CB1CEC098F00AE5456 /* DotaNews.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C44CE0E31CEC098F00AE5456 /* DotaNewsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C44CE0FB1CEC098F00AE5456 /* Build configuration list for PBXNativeTarget "DotaNewsTests" */;
+			buildPhases = (
+				C44CE0E01CEC098F00AE5456 /* Sources */,
+				C44CE0E11CEC098F00AE5456 /* Frameworks */,
+				C44CE0E21CEC098F00AE5456 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C44CE0E61CEC098F00AE5456 /* PBXTargetDependency */,
+			);
+			name = DotaNewsTests;
+			productName = DotaNewsTests;
+			productReference = C44CE0E41CEC098F00AE5456 /* DotaNewsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C44CE0EE1CEC098F00AE5456 /* DotaNewsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C44CE0FE1CEC098F00AE5456 /* Build configuration list for PBXNativeTarget "DotaNewsUITests" */;
+			buildPhases = (
+				C44CE0EB1CEC098F00AE5456 /* Sources */,
+				C44CE0EC1CEC098F00AE5456 /* Frameworks */,
+				C44CE0ED1CEC098F00AE5456 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C44CE0F11CEC098F00AE5456 /* PBXTargetDependency */,
+			);
+			name = DotaNewsUITests;
+			productName = DotaNewsUITests;
+			productReference = C44CE0EF1CEC098F00AE5456 /* DotaNewsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C44CE0C31CEC098F00AE5456 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = xymaker;
+				TargetAttributes = {
+					C44CE0CA1CEC098F00AE5456 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					C44CE0E31CEC098F00AE5456 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = C44CE0CA1CEC098F00AE5456;
+					};
+					C44CE0EE1CEC098F00AE5456 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = C44CE0CA1CEC098F00AE5456;
+					};
+				};
+			};
+			buildConfigurationList = C44CE0C61CEC098F00AE5456 /* Build configuration list for PBXProject "DotaNews" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C44CE0C21CEC098F00AE5456;
+			productRefGroup = C44CE0CC1CEC098F00AE5456 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C44CE0CA1CEC098F00AE5456 /* DotaNews */,
+				C44CE0E31CEC098F00AE5456 /* DotaNewsTests */,
+				C44CE0EE1CEC098F00AE5456 /* DotaNewsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C44CE0C91CEC098F00AE5456 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C44CE0DE1CEC098F00AE5456 /* LaunchScreen.storyboard in Resources */,
+				C44CE0DB1CEC098F00AE5456 /* Assets.xcassets in Resources */,
+				C44CE0D91CEC098F00AE5456 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C44CE0E21CEC098F00AE5456 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C44CE0ED1CEC098F00AE5456 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C44CE0C71CEC098F00AE5456 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C44CE0D61CEC098F00AE5456 /* ViewController.m in Sources */,
+				C44CE0D31CEC098F00AE5456 /* AppDelegate.m in Sources */,
+				C44CE0D01CEC098F00AE5456 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C44CE0E01CEC098F00AE5456 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C44CE0E91CEC098F00AE5456 /* DotaNewsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C44CE0EB1CEC098F00AE5456 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C44CE0F41CEC098F00AE5456 /* DotaNewsUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C44CE0E61CEC098F00AE5456 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C44CE0CA1CEC098F00AE5456 /* DotaNews */;
+			targetProxy = C44CE0E51CEC098F00AE5456 /* PBXContainerItemProxy */;
+		};
+		C44CE0F11CEC098F00AE5456 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C44CE0CA1CEC098F00AE5456 /* DotaNews */;
+			targetProxy = C44CE0F01CEC098F00AE5456 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C44CE0D71CEC098F00AE5456 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C44CE0D81CEC098F00AE5456 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C44CE0DC1CEC098F00AE5456 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C44CE0DD1CEC098F00AE5456 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C44CE0F61CEC098F00AE5456 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C44CE0F71CEC098F00AE5456 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C44CE0F91CEC098F00AE5456 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DotaNews/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xymaker.DotaNews;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C44CE0FA1CEC098F00AE5456 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DotaNews/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xymaker.DotaNews;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C44CE0FC1CEC098F00AE5456 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DotaNewsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xymaker.DotaNewsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DotaNews.app/DotaNews";
+			};
+			name = Debug;
+		};
+		C44CE0FD1CEC098F00AE5456 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DotaNewsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xymaker.DotaNewsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DotaNews.app/DotaNews";
+			};
+			name = Release;
+		};
+		C44CE0FF1CEC098F00AE5456 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DotaNewsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xymaker.DotaNewsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DotaNews;
+			};
+			name = Debug;
+		};
+		C44CE1001CEC098F00AE5456 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DotaNewsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xymaker.DotaNewsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DotaNews;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C44CE0C61CEC098F00AE5456 /* Build configuration list for PBXProject "DotaNews" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C44CE0F61CEC098F00AE5456 /* Debug */,
+				C44CE0F71CEC098F00AE5456 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C44CE0F81CEC098F00AE5456 /* Build configuration list for PBXNativeTarget "DotaNews" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C44CE0F91CEC098F00AE5456 /* Debug */,
+				C44CE0FA1CEC098F00AE5456 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C44CE0FB1CEC098F00AE5456 /* Build configuration list for PBXNativeTarget "DotaNewsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C44CE0FC1CEC098F00AE5456 /* Debug */,
+				C44CE0FD1CEC098F00AE5456 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C44CE0FE1CEC098F00AE5456 /* Build configuration list for PBXNativeTarget "DotaNewsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C44CE0FF1CEC098F00AE5456 /* Debug */,
+				C44CE1001CEC098F00AE5456 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C44CE0C31CEC098F00AE5456 /* Project object */;
+}
